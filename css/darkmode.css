@@ -1,0 +1,22 @@
+:root {
+  --milkThemeDarkColor: #1e394d;
+  --DarklinkColor: #ec9f19;
+  --DarklinkColorHover: #bd7f14;
+}
+
+[data-bs-theme="dark"] .chrDesc .tableBg {
+  background-color: var(--milkThemeDarkColor);
+}
+
+[data-bs-theme="dark"] .carousel-control-prev-icon,
+[data-bs-theme="dark"] .carousel-control-next-icon {
+  filter: unset;
+}
+[data-bs-theme="dark"] a {
+  color: var(--DarklinkColor);
+  text-decoration: none;
+}
+[data-bs-theme="dark"] a:hover {
+  color: var(--DarklinkColorHover);
+  text-decoration: underline;
+}

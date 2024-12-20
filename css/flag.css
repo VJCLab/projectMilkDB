@@ -1,0 +1,23 @@
+.flags {
+  width: 2.5em;
+  height: 1.5em;
+  text-align: center;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid var(--bs-border-color);
+}
+.flags.ko {
+  background-image: url(https://i.namu.wiki/i/4sEtZHsJguOVWG2SBUKiIwxbwpITKpQ2b3l4fRYv3unF9tqsDz6Lc_DXqlXgSwdKQWvOSnhH4A_iiYlbVcrIFBbPxg6qNBOay2qa7Our1xWTqTWD-CQXZoZnp_GA50aexqr9SnXuDJ9ID5Luwnf7TQ.svg);
+  --flagText: "대한민국 국기";
+}
+.flags.ja {
+  background-image: url(https://i.namu.wiki/i/7KMdY_DSyicbLL-Fw6mHCns9-lBgb3d01yPCFaWdFrj7juGtDUcMCsmtoBqDdjQugVnJCCcgrs2T361Oq4RikU6UByI-y2SUASPnDVmQHDtkmiJLLmOityw7AvyZUa8NSuKp3ljk4Dm5GnUf_bUIGA.svg);
+  --flagText: "일본 국기";
+}
+.row > div:has(.flags) {
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}

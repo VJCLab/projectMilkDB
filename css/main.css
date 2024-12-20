@@ -1,0 +1,50 @@
+:root {
+  --milkThemeColor: #e6faf3;
+  --linkColor: var(--bs-primary);
+  --linkColorHover: #084298;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", "Noto Serif", Arial;
+}
+* {
+  font-family: "Noto Sans", "Noto Serif", Arial;
+}
+.chrDesc .tableBg {
+  align-content: space-around;
+  background-color: var(--milkThemeColor);
+}
+.chrDesc .cvName {
+  font-size: 1.2em;
+}
+.chrDesc .cvName ruby > rt {
+  font-size: 80%;
+}
+
+a {
+  color: var(--linkColor);
+  text-decoration: none;
+  margin-right: 0.25em;
+}
+a:hover {
+  color: var(--linkColorHover);
+  text-decoration: underline;
+}
+.bd-mode-toggle i {
+  margin-right: 0.5em;
+}
+.GoyangDeogyang {
+  font-family: "GoyangDeogyang", "Noto Sans";
+}
+@font-face {
+  font-family: "GoyangDeogyang";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangDeogyang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
