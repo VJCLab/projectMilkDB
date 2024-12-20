@@ -23,6 +23,7 @@
 }
 .chrImgDisp .carousel-indicators [data-bs-target] {
   border-top: 0;
+  background-color: #000;
 }
 .chrImgDisp .uuidDisp {
   top: unset !important;

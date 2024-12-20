@@ -7,10 +7,12 @@
 [data-bs-theme="dark"] .chrDesc .tableBg {
   background-color: var(--milkThemeDarkColor);
 }
-
+[data-bs-theme="dark"] .chrImgDisp .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+}
 [data-bs-theme="dark"] .carousel-control-prev-icon,
 [data-bs-theme="dark"] .carousel-control-next-icon {
-  filter: unset;
+  filter: unset !important;
 }
 [data-bs-theme="dark"] a {
   color: var(--DarklinkColor);
